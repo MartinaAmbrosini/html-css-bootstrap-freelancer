@@ -1,17 +1,62 @@
 section .container-fluid{
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-.lightgreen{
+/* jumbotron */
+#ms_jumbotron, #ms_about{
     background-color: #1abc9c;
-    /* debug */
-    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
+
+.img-container.jumbo{
+    width: 300px;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.star.jumbo{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.star-decoration{
+    height: 4px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.star-decoration.jumbo{
+    background-color: white;
+}
+
+
+.fa-star{
+    font-size: 30px;
+}
+
+.application{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
 .white {
     /* debug */
     min-height: 400px;
 }
+
 .light-grey {
     background-color: #3a546d;
     /* debug */
