@@ -1,7 +1,7 @@
-section .container-fluid{
+/* section .container-fluid{
     max-width: 100%;
     margin: 0 auto;
-}
+} */
 
 /* jumbotron */
 #ms_jumbotron, #ms_about{
@@ -33,6 +33,7 @@ h1{
     width: 100px;
     display: inline-block;
     margin: 10px 0;
+    border-radius: 10px;
 }
 
 .star-decoration.jumbo{
@@ -44,7 +45,7 @@ h1{
     font-size: 30px;
 }
 
-.application{
+.job{
     color: white;
     text-align: center;
     padding-bottom: 20px;
@@ -52,9 +53,75 @@ h1{
 }
 
 
-.white {
-    /* debug */
-    min-height: 400px;
+#portfolio {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.star.portfolio{
+    color: #2c3e50;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.star-decoration.portfolio{
+    background-color: #2c3e50;
+}
+
+.img-container{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.ms_container-large{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.ms_card{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.house{
+    background-color: #ba4b63;
+}
+
+.cake{
+    background-color: #1ea4b6;
+}
+
+.circus{
+    background-color: black;
+}
+
+.videogame{
+    background-color: #1c83c1;
+}
+
+.lockbox{
+    background-color: #0e38b5;
+}
+
+.submarine{
+    background-color: #ccb2a3;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.portfolio, .contact{
+    color: #2c3e50;
 }
 
 .light-grey {
