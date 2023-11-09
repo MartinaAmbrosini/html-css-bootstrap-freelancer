@@ -142,8 +142,40 @@
       </section>
 
         <!-- contact me section -->
-      <section class="white">
-        <div class="container-fluid">
+      <section id="contact" class="ms_container-large" style="color: black;">
+        <div class="ms_container">
+          <div class="container_fluid">
+            <h2 class="title contact">
+              CONTACT ME
+            </h2>
+            <div class="star jumbo">
+              <span class="star-decoration jumbo" style="background-color: #2c3e50;"></span>
+              <i class="fa-solid fa-star" style="color: #2c3e50;"></i>
+              <span class="star-decoration jumbo" style="background-color: #2c3e50;"></span>
+            </div> 
+          </div>
+        <div class="row justify-content-center">
+          <div class="col-7 col-md-5">
+            <form action="#">
+              <div class="form-floating ms_form-space">
+                  <input type="text" class="form-control ms_input-size" id="floatingInput" placeholder="Nome">
+                  <label class="ms_label-name" for="floatingInput ">Nome</label>
+              </div>
+              <div class="form-floating ms_form-space">
+                  <input type="email" class="form-control ms_input-size" id="floatingPassword" placeholder="Email Address">
+                  <label class="ms_label-name" for="floatingPassword">Email Address</label>
+              </div>
+              <div class="form-floating ms_form-space">
+                  <input type="text" class="form-control ms_input-size" id="floatingPassword" placeholder="Phone Number">
+                  <label class="ms_label-name" for="floatingPassword">Phone Number</label>
+              </div>
+              <div class="form-floating ms_form-space">
+                  <textarea class="form-control ms_input-size" placeholder="Message" id="floatingTextarea2" style="height: 150px"></textarea>
+                  <label class="ms_label-name" for="floatingTextarea2">Message</label>
+              </div>  
+              <button class="send" type="submit">Send</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>

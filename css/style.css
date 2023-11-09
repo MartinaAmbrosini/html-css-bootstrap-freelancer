@@ -131,9 +131,31 @@ h1{
     margin: 0 auto;
 }
 
-.portfolio, .contact{
+#portfolio, #contact{
     color: #2c3e50;
 }
+
+
+.ms_input-size{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+}
+
+.ms_form-space > label{
+    color: #2c3e50;
+}
+
+.send{
+    background-color: #1abc9c;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
 
 .light-grey {
     background-color: #3a546d;
